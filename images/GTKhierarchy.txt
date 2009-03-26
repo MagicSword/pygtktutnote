@@ -1,0 +1,150 @@
+gobject.GObject
+|
++gtk.Object
+| +gtk.Widget
+| | +gtk.Misc
+| | | +gtk.Label
+| | | | `gtk.AccelLabel
+| | | +gtk.Arrow
+| | | `gtk.Image
+| | +gtk.Container
+| | | +gtk.Bin
+| | | | +gtk.Alignment
+| | | | +gtk.Frame
+| | | | | `gtk.AspectFrame
+| | | | +gtk.Button
+| | | | | +gtk.ToggleButton
+| | | | | | `gtk.CheckButton
+| | | | | |   `gtk.RadioButton
+| | | | | +gtk.ColorButton
+| | | | | +gtk.FontButton
+| | | | | `gtk.OptionMenu
+| | | | +gtk.Item
+| | | | | +gtk.MenuItem
+| | | | |   +gtk.CheckMenuItem
+| | | | |   | `gtk.RadioMenuItem
+| | | | |   +gtk.ImageMenuItem
+| | | | |   +gtk.SeparatorMenuItem
+| | | | |   `gtk.TearoffMenuItem
+| | | | +gtk.Window
+| | | | | +gtk.Dialog
+| | | | | | +gtk.ColorSelectionDialog
+| | | | | | +gtk.FileChooserDialog
+| | | | | | +gtk.FileSelection
+| | | | | | +gtk.FontSelectionDialog
+| | | | | | +gtk.InputDialog
+| | | | | | `gtk.MessageDialog
+| | | | | `gtk.Plug
+| | | | +gtk.ComboBox
+| | | | | `gtk.ComboBoxEntry
+| | | | +gtk.EventBox
+| | | | +gtk.Expander
+| | | | +gtk.HandleBox
+| | | | +gtk.ToolItem
+| | | | | +gtk.ToolButton
+| | | | | | +gtk.ToggleToolButton
+| | | | | | | `gtk.RadioToolButton
+| | | | | `gtk.SeparatorTooItem
+| | | | +gtk.ScrolledWindow
+| | | | `gtk.Viewport
+| | | +gtk.Box
+| | | | +gtk.ButtonBox
+| | | | | +gtk.HButtonBox
+| | | | | `gtk.VButtonBox
+| | | | +gtk.VBox
+| | | | | +gtk.ColorSelection
+| | | | | +gtk.FontSelection
+| | | | | `gtk.GammaCurve
+| | | | `gtk.HBox
+| | | |   +gtk.Combo
+| | | |   `gtk.Statusbar
+| | | +gtk.Fixed
+| | | +gtk.Paned
+| | | | +gtk.HPaned
+| | | | `gtk.VPaned
+| | | +gtk.Layout
+| | | +gtk.MenuShell
+| | | | +gtk.MenuBar
+| | | | `gtk.Menu
+| | | +gtk.Notebook
+| | | +gtk.Socket
+| | | +gtk.Table
+| | | +gtk.TextView
+| | | +gtk.Toolbar
+| | | `gtk.TreeView
+| | +gtk.Calendar
+| | +gtk.DrawingArea
+| | | `gtk.Curve
+| | +gtk.Entry
+| | | `gtk.SpinButton
+| | +gtk.Ruler
+| | | +gtk.HRuler
+| | | `gtk.VRuler
+| | +gtk.Range
+| | | +gtk.Scale
+| | | | +gtk.HScale
+| | | | `gtk.VScale
+| | | `gtk.Scrollbar
+| | |   +gtk.HScrollbar
+| | |   `gtk.VScrollbar
+| | +gtk.Separator
+| | | +gtk.HSeparator
+| | | `gtk.VSeparator
+| | +gtk.Invisible
+| | +gtk.Progress
+| | | `gtk.ProgressBar
+| +gtk.Adjustment
+| +gtk.CellRenderer
+| | +gtk.CellRendererPixbuf
+| | +gtk.CellRendererText
+| | +gtk.CellRendererToggle
+| +gtk.FileFilter
+| +gtk.ItemFactory
+| +gtk.Tooltips
+| `gtk.TreeViewColumn
++gtk.Action
+| +gtk.ToggleAction
+| | `gtk.RadioAction
++gtk.ActionGroup
++gtk.EntryCompletion
++gtk.IconFactory
++gtk.IconTheme
++gtk.IMContext
+| +gtk.IMContextSimple
+| `gtk.IMMulticontext
++gtk.ListStore
++gtk.RcStyle
++gtk.Settings
++gtk.SizeGroup
++gtk.Style
++gtk.TextBuffer
++gtk.TextChildAnchor
++gtk.TextMark
++gtk.TextTag
++gtk.TextTagTable
++gtk.TreeModelFilter
++gtk.TreeModelSort
++gtk.TreeSelection
++gtk.TreeStore
++gtk.UIManager
++gtk.WindowGroup
++gtk.gdk.DragContext
++gtk.gdk.Screen
++gtk.gdk.Pixbuf
++gtk.gdk.Drawable
+| +gtk.gdk.Pixmap
++gtk.gdk.Image
++gtk.gdk.PixbufAnimation
++gtk.gdk.Device
+
+gobject.GObject
+|
++gtk.CellLayout
++gtk.Editable
++gtk.CellEditable
++gtk.FileChooser
++gtk.TreeModel
++gtk.TreeDragSource
++gtk.TreeDragDest
++gtk.TreeSortable
+
