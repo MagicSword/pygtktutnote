@@ -1,0 +1,107 @@
+.. _08range:
+.. vim:set shiftwidth=4 tabstop=4 expandtab:
+
+
+.. module:: zlib
+    :synopsis: Low-level access to GNU zlib compression library
+
+
+8. Range Widgets
+================
+
+8.1. Scrollbar Widgets
+-----------------------
+
+8.2. Scale Widgets
+-------------------
+
+
+8.2.1. Creating a Scale Widget
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+8.2.2. Methods and Signals (well, methods, at least)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+8.3. Common Range Methods
+----------------------------
+
+8.3.1. Setting the Update Policy
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+8.3.2. Getting and Setting Adjustments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+8.4. Key and Mouse Bindings
+----------------------------
+
+
+
+8.5. Range Widget Example
+----------------------------
+
+
+Section 1.1 Title
+-----------------
+
+Subsection 1.1.1 Title
+~~~~~~~~~~~~~~~~~~~~~~
+
+* a bullet point using "*"
+
+  - a sub-list using "-"
+
+    + yet another sub-list
+
+  - another item
+
+Section 1.2 Title
+-----------------
+
+
+.. literalinclude:: example/example.py
+    :language: python
+    :linenos:
+
+.. image:: images/helloworld.png
+
+
+.. figure:: images/button.png
+   :class: figure
+   :alt: Button with Pixmap and Label
+
+   Figure 6.1, “Button with Pixmap and Label”
+
+.. class:: Normal buttons
+
+
+.. function:: format_exception(etype, value, tb[, limit=None])
+
+   Format the exception with a traceback.
+
+   :param etype: exception type
+   :param value: exception value
+   :param tb: traceback object
+   :param limit: maximum number of stack frames to show
+   :type limit: integer or None
+   :rtype: list of strings
+
+
+
+
+
+.. seealso::
+
+    `zlib <http://docs.python.org/library/zlib.html>`_
+            The standard library documentation for this module.
+
+    :mod:`gzip`
+            The gzip module interface to the zlib library.
+
+    http://www.zlib.net/
+            Home page for zlib library.
+

@@ -1,0 +1,15 @@
+TDO List
+=========
+
+ * Figure標記，可以的話作成列表，像latex文章最後的一樣
+ * Table.. ditto
+
+
+
+Done
+====
+
+
+ * 找一下CrossLink的方法？
+ * Source code..ditto
+ * Glossary: 中英術語對照

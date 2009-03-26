@@ -1,0 +1,70 @@
+.. PyGTK Tutorial Note documentation master file, created by sphinx-quickstart on Fri Mar 13 13:15:18 2009.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+=========================
+PyGTK Tutorial Note
+=========================
+:Author: Miller
+:License: GNU GPL
+:Release: |version|
+:Date: |today|
+
+
+.. title:: PyGTK Tutorial Note 
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Contents:
+
+.. toctree::
+    :maxdepth: 2
+    
+    01intro
+    02start
+    03moveon
+    04packing
+    05widget
+    06button
+    07adjustments
+    08range
+    09misc
+    10container
+    11menu
+    12drawingaera
+    13texview
+    14treeview
+    15new2.2
+    16new2.4
+    17undocumented
+    18setAttrib
+    19timeouts
+    20advSignal
+    21selection
+    22dragdrop
+    23gtkrc
+    24scribble
+    25tips
+    26contributing
+    27credits
+    28copyright
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+.. glossary:
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Reference:
+    1. `PyGTK Tutorial`_
+    2. `PyGTK Tutorial zh_cn`_
+
+..  _`PyGTK Tutorial`: http://www.pygtk.org/pygtk2tutorial/index.html
+..  _`PyGTK Tutorial zh_cn`: http://wiki.woodpecker.org.cn/moin/PyGTK2_Tutorial_cn#head-ee2060ee9b34815cfe5ee5944385535a01e5612d
+
